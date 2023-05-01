@@ -16,4 +16,8 @@ public class FilmeContext: DbContext
     //cria uma propriedade que dará acesso ao conjunto de filmes,
     //é uma coleção de entidades Filme armazenadas no banco de dados. 
     public DbSet<Filme> Filmes { get; set; }
+
+    public DbSet<Cinema> Cinemas { get; set; }
+
+    public DbSet<Endereco> Enderecos { get; set; }
 }
